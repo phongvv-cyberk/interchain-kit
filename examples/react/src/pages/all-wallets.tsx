@@ -72,6 +72,7 @@ const SendTokenTd = ({ wallet, address, chain }: SendTokenProps) => {
   );
 
   const handleSendToken = async () => {
+    console.log("=========handleSendToken");
     const signingClient = await getSigningClient();
 
     const txSend = createSend(signingClient);
@@ -197,7 +198,7 @@ const WalletConnectTd = ({ wallet }: { wallet: BaseWallet }) => {
   };
 
   const uri = (currentWallet as WCWallet).pairingUri || "";
-
+  console.log("=========URI", uri);
   return (
     <td>
       <button className="bg-blue-100 p-1 m-1" onClick={connect}>

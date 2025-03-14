@@ -1170,6 +1170,16 @@
     "@types/semver" "^7.5.8"
     semver "^7.5.0"
 
+"@chain-registry/v2-types@0.53.68":
+  version "0.53.68"
+  resolved "https://registry.yarnpkg.com/@chain-registry/v2-types/-/v2-types-0.53.68.tgz#83173c3e79c7c89a382c4017e15db71970038847"
+  integrity sha512-MCK9RKJ67VYWCJ0HtnDYJIottx4paoo6wKMbH3s6xWFzLVwufJWi0iKMoppVOIXWk+yr+h9W3puaLJPnYNez9A==
+
+"@chain-registry/v2-types@0.53.72":
+  version "0.53.72"
+  resolved "https://registry.yarnpkg.com/@chain-registry/v2-types/-/v2-types-0.53.72.tgz#3621cc1e94cacb430c657c2af63d4825950b880f"
+  integrity sha512-HIbDFK0R1aZTbXdTN7FOZI+z3lHt4ZQWRYDctUk3IwvGxOC04gYCa45SfsHx4YpqALXa0hu9Acj5fUSp4mnZ5w==
+
 "@chain-registry/v2-types@^0.49.6":
   version "0.49.86"
   resolved "https://registry.yarnpkg.com/@chain-registry/v2-types/-/v2-types-0.49.86.tgz#f4ee7c3f32d31cac9d483ed2f6898e6001998345"
@@ -1184,6 +1194,13 @@
   version "0.53.52"
   resolved "https://registry.yarnpkg.com/@chain-registry/v2-types/-/v2-types-0.53.52.tgz#e60fb8d0f66654a2c7b4d10580e6f72b2aee2f95"
   integrity sha512-bF8ff2RMGjbl9potRB2K67X+dohJiKh85HAivBQtXlDZbc+34aXCwGtAOyYo+8BFHMLKokLPe/hrFHqhV00PZg==
+
+"@chain-registry/v2@1.71.71":
+  version "1.71.71"
+  resolved "https://registry.yarnpkg.com/@chain-registry/v2/-/v2-1.71.71.tgz#648eab79a487a2680c77b85fab96d5c5d5fb3eea"
+  integrity sha512-JdzJHRduw58io8ZOKy7mnAt9oFJqWSa5Bn5srWXG5326ztUCe1MLd9yZMMCos57mc4UFrOJm8Gr9V7lKtEZvjQ==
+  dependencies:
+    "@chain-registry/v2-types" "^0.53.40"
 
 "@chain-registry/v2@^1.65.20", "@chain-registry/v2@^1.65.6", "@chain-registry/v2@^1.71.16", "@chain-registry/v2@^1.71.22", "@chain-registry/v2@^1.71.71":
   version "1.71.91"
@@ -2299,6 +2316,16 @@
     vue-final-modal "^4.5.4"
     zustand "^4.5.5"
 
+"@interchainjs/amino@1.9.12":
+  version "1.9.12"
+  resolved "https://registry.yarnpkg.com/@interchainjs/amino/-/amino-1.9.12.tgz#2a21b6f4438122ff7b7faf77452d2d516a50aa85"
+  integrity sha512-LJnUzD6lRiFp7yJyLMuOHj3gkfRcAObOKLGtwvdm5yHSOdIU98b8423uU7Q0XG5PZaU5523IuNM1f8oYSwOn0w==
+  dependencies:
+    "@interchainjs/crypto" "1.9.12"
+    "@interchainjs/encoding" "1.9.12"
+    "@interchainjs/math" "1.9.12"
+    "@interchainjs/utils" "1.9.12"
+
 "@interchainjs/auth@0.0.1-alpha.31":
   version "0.0.1-alpha.31"
   resolved "https://registry.yarnpkg.com/@interchainjs/auth/-/auth-0.0.1-alpha.31.tgz#233ab8135881bdfac4d8bd1ace520d8834f26b00"
@@ -2330,6 +2357,18 @@
     "@interchainjs/utils" "1.6.3"
     "@noble/curves" "^1.1.0"
     "@noble/hashes" "^1.3.1"
+    ethers "^6.5.1"
+
+"@interchainjs/auth@1.9.12":
+  version "1.9.12"
+  resolved "https://registry.yarnpkg.com/@interchainjs/auth/-/auth-1.9.12.tgz#7da53f085541fe66a2a07d17a5e8abd7b9754e97"
+  integrity sha512-bJZGK4V3Q60yfe6LiobZE4ilzaG7jEKwYhc989G/JbhnLBeqEHjOfKUq2GPUVakxd7Q/qpcupkzZTrP3J4J7EA==
+  dependencies:
+    "@interchainjs/types" "1.9.12"
+    "@interchainjs/utils" "1.9.12"
+    "@noble/curves" "^1.1.0"
+    "@noble/hashes" "^1.3.1"
+    "@scure/bip32" "^1.0.10"
     ethers "^6.5.1"
 
 "@interchainjs/auth@^1.8.3":
@@ -2384,7 +2423,15 @@
     "@interchainjs/types" "1.6.3"
     "@interchainjs/utils" "1.6.3"
 
-"@interchainjs/cosmos-types@1.9.3", "@interchainjs/cosmos-types@^1.9.3":
+"@interchainjs/cosmos-types@1.9.12":
+  version "1.9.12"
+  resolved "https://registry.yarnpkg.com/@interchainjs/cosmos-types/-/cosmos-types-1.9.12.tgz#caae9c1c5268e82de9aa930897f128ca8f995bc6"
+  integrity sha512-xUYrqwry7SNDRghkQ8s4WXcv9YQxJz2P41WrF5SoaGstCX00rtwKs8ovx6g2v1dD4NI3qmWv+fM2oj4hLEQCXg==
+  dependencies:
+    "@interchainjs/types" "1.9.12"
+    "@interchainjs/utils" "1.9.12"
+
+"@interchainjs/cosmos-types@^1.9.3":
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/@interchainjs/cosmos-types/-/cosmos-types-1.9.3.tgz#d05876de25dc41da2cf0c2555e4aae49f66641d7"
   integrity sha512-PbrrIgG97FfypJAkh8wvDquaKEVI9KXtGvB/7FwbKPzt/ru1ZJcsHSg3BvljF0sRCsc0Uqc+DsG361BBwdCMrg==
@@ -2437,17 +2484,17 @@
     "@noble/hashes" "^1.3.1"
     decimal.js "^10.4.3"
 
-"@interchainjs/cosmos@1.9.3", "@interchainjs/cosmos@^1.9.3":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@interchainjs/cosmos/-/cosmos-1.9.3.tgz#8fc2fa7bef23664d3a130f67a845481d281d5fbf"
-  integrity sha512-AijqPOm7jTO1QaYjbSzKmLXLyBItOkz+V6DJgNY1McEA00MDKhslN1GckWhehfdY5bTgdSU9AcgxUdrYphzgVA==
+"@interchainjs/cosmos@1.9.12":
+  version "1.9.12"
+  resolved "https://registry.yarnpkg.com/@interchainjs/cosmos/-/cosmos-1.9.12.tgz#8dd14bb728235dcf94cf5a3546d1ba6f1231303c"
+  integrity sha512-CLfe/GFjodmm056iwWgPZtqzLUlymVjKH94g94jNqBBxwp8r+yXRxXnvmZTJkQNwbrwatfrPeM8u9ve4vzFtdQ==
   dependencies:
     "@chain-registry/v2" "^1.65.6"
-    "@chain-registry/v2-types" "^0.49.6"
-    "@interchainjs/auth" "^1.8.3"
-    "@interchainjs/cosmos-types" "^1.9.3"
-    "@interchainjs/types" "^1.8.3"
-    "@interchainjs/utils" "^1.8.3"
+    "@chain-registry/v2-types" "0.53.68"
+    "@interchainjs/auth" "1.9.12"
+    "@interchainjs/cosmos-types" "1.9.12"
+    "@interchainjs/types" "1.9.12"
+    "@interchainjs/utils" "1.9.12"
     "@noble/curves" "^1.1.0"
     "@noble/hashes" "^1.3.1"
     decimal.js "^10.4.3"
@@ -2466,6 +2513,44 @@
     "@noble/curves" "^1.1.0"
     "@noble/hashes" "^1.3.1"
     decimal.js "^10.4.3"
+
+"@interchainjs/cosmos@^1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@interchainjs/cosmos/-/cosmos-1.9.3.tgz#8fc2fa7bef23664d3a130f67a845481d281d5fbf"
+  integrity sha512-AijqPOm7jTO1QaYjbSzKmLXLyBItOkz+V6DJgNY1McEA00MDKhslN1GckWhehfdY5bTgdSU9AcgxUdrYphzgVA==
+  dependencies:
+    "@chain-registry/v2" "^1.65.6"
+    "@chain-registry/v2-types" "^0.49.6"
+    "@interchainjs/auth" "^1.8.3"
+    "@interchainjs/cosmos-types" "^1.9.3"
+    "@interchainjs/types" "^1.8.3"
+    "@interchainjs/utils" "^1.8.3"
+    "@noble/curves" "^1.1.0"
+    "@noble/hashes" "^1.3.1"
+    decimal.js "^10.4.3"
+
+"@interchainjs/crypto@1.9.12":
+  version "1.9.12"
+  resolved "https://registry.yarnpkg.com/@interchainjs/crypto/-/crypto-1.9.12.tgz#bf95d4b0dd1900ed41b1d7927760026d0cb5312b"
+  integrity sha512-lL1vYIoc25jPoIBy/8Ig+PmCVtWsny8x1aFJ5aBri899PBoTr9eUL6QvD/aNe2p/XYvORQffY6eJTVTo0o4GpQ==
+  dependencies:
+    "@interchainjs/encoding" "1.9.12"
+    "@interchainjs/math" "1.9.12"
+    "@interchainjs/utils" "1.9.12"
+    "@noble/hashes" "^1"
+    bn.js "^5.2.0"
+    elliptic "^6.5.4"
+    libsodium-wrappers-sumo "^0.7.11"
+
+"@interchainjs/encoding@1.9.12":
+  version "1.9.12"
+  resolved "https://registry.yarnpkg.com/@interchainjs/encoding/-/encoding-1.9.12.tgz#fbfc3422c2b20e7c717d0e18a0963a5905c532a7"
+  integrity sha512-kfOCToy0qoLkG4svVawhbIEODud6xinBhL+gnp4wFCGpX9Ziipz51OEhRV2s09GSojKlrmlR4PDZEpVieDudRA==
+  dependencies:
+    "@interchainjs/math" "1.9.12"
+    base64-js "^1.3.0"
+    bech32 "^1.1.4"
+    readonly-date "^1.0.0"
 
 "@interchainjs/ethereum@^0.0.1-beta.9":
   version "0.0.1-beta.41"
@@ -2494,6 +2579,24 @@
     decimal.js "^10.4.3"
     interchainjs "^0.0.1-beta.14"
 
+"@interchainjs/math@1.9.12":
+  version "1.9.12"
+  resolved "https://registry.yarnpkg.com/@interchainjs/math/-/math-1.9.12.tgz#b21513b0e3b571ad71910b74361c1b3f6a1c8ade"
+  integrity sha512-ynMCV+8Q5IRXbW4mC8dtyOZTp3eXcfWcOKH+U27wNMdqavNaPmQA9Dre6z1o0/C91z0O04IIrV9LpEW/HOC4DQ==
+  dependencies:
+    bn.js "^5.2.0"
+
+"@interchainjs/pubkey@1.9.12":
+  version "1.9.12"
+  resolved "https://registry.yarnpkg.com/@interchainjs/pubkey/-/pubkey-1.9.12.tgz#eb1366bc2b53ac050a30ab3cea9f776b01da6def"
+  integrity sha512-Irw4XyygicEzWEwmWOueprfsYjAjoV/w2WMPIyG1LrzTuN7zr16JZb3Ecr+Xbm3ANyTIdoN915xA0nwxvqQD2g==
+  dependencies:
+    "@interchainjs/amino" "1.9.12"
+    "@interchainjs/cosmos-types" "1.9.12"
+    "@interchainjs/encoding" "1.9.12"
+    "@interchainjs/math" "1.9.12"
+    "@interchainjs/types" "1.9.12"
+
 "@interchainjs/types@0.0.1-alpha.31":
   version "0.0.1-alpha.31"
   resolved "https://registry.yarnpkg.com/@interchainjs/types/-/types-0.0.1-alpha.31.tgz#d31ca008e1af09c398fbb2af72a7f97e5f346f47"
@@ -2512,6 +2615,13 @@
   version "1.6.3"
   resolved "https://registry.yarnpkg.com/@interchainjs/types/-/types-1.6.3.tgz#12765da49521f1512a1223687d2b0e9a33eeec8f"
   integrity sha512-oDW5RUgVd5i4Ni7zx2YizIwRPgC97X79EQdb/sOkD+Fk+N/n83Op5JpnuaN6RB2bYJdeNWdn2RsH+Zk3uE1ETw==
+  dependencies:
+    decimal.js "^10.4.3"
+
+"@interchainjs/types@1.9.12":
+  version "1.9.12"
+  resolved "https://registry.yarnpkg.com/@interchainjs/types/-/types-1.9.12.tgz#4eafe28a4efaa0f0eb56adb28f368fa932f7bb82"
+  integrity sha512-bN319BQ88vLyiFijuh5ZVrFpoAHwgj7pTp02Rd0s71oiI5Fmr2khXBJcg2LIo6czbSTx2r3DS8PGsuxaxEixfg==
   dependencies:
     decimal.js "^10.4.3"
 
@@ -2545,6 +2655,17 @@
   dependencies:
     "@interchainjs/types" "1.6.3"
     bech32 "^2.0.0"
+
+"@interchainjs/utils@1.9.12":
+  version "1.9.12"
+  resolved "https://registry.yarnpkg.com/@interchainjs/utils/-/utils-1.9.12.tgz#5a380c896103140f78f37e857cb46a3b8ed2b8d9"
+  integrity sha512-IGanOXPc1XVyN+fBYJhe83H8hifeaNRxH5HQ+EfGkadhjnIPtdugyC2jR406zIwwRDdz88EcHkod4HCWV0thuA==
+  dependencies:
+    "@chain-registry/v2" "1.71.71"
+    "@chain-registry/v2-types" "0.53.72"
+    "@interchainjs/types" "1.9.12"
+    bech32 "^2.0.0"
+    decimal.js "^10.4.3"
 
 "@interchainjs/utils@^1.8.3":
   version "1.8.3"
@@ -8374,7 +8495,7 @@ crypto-browserify@^3.11.0, crypto-browserify@^3.12.0, crypto-browserify@^3.12.1:
     randombytes "^2.1.0"
     randomfill "^1.0.4"
 
-crypto-es@^2.1.0:
+crypto-es@^2.1.0, "crypto@npm:crypto-es":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/crypto-es/-/crypto-es-2.1.0.tgz#1095f324ffd7dc1ccab8e21d0960e17025da8ce9"
   integrity sha512-C5Dbuv4QTPGuloy5c5Vv/FZHtmK+lobLAypFfuRaBbwCsk3qbCWWESCH3MUcBsrgXloRNMrzwUAiPg4U6+IaKA==
@@ -8393,11 +8514,6 @@ crypto@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/crypto/-/crypto-1.0.1.tgz#2af1b7cad8175d24c8a1b0778255794a21803037"
   integrity sha512-VxBKmeNcqQdiUQUW2Tzq0t377b54N2bMtXO/qiLa+6eRRmmC4qT3D4OnTGoT/U6O9aklQ/jTwbOtRMTTY8G0Ig==
-
-"crypto@npm:crypto-es":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/crypto-es/-/crypto-es-2.1.0.tgz#1095f324ffd7dc1ccab8e21d0960e17025da8ce9"
-  integrity sha512-C5Dbuv4QTPGuloy5c5Vv/FZHtmK+lobLAypFfuRaBbwCsk3qbCWWESCH3MUcBsrgXloRNMrzwUAiPg4U6+IaKA==
 
 css-what@^6.1.0:
   version "6.1.0"
@@ -10292,6 +10408,20 @@ interchainjs@1.6.3:
     "@interchainjs/cosmos-types" "1.6.3"
     "@interchainjs/types" "1.6.3"
     "@interchainjs/utils" "1.6.3"
+    "@noble/hashes" "^1.3.1"
+    decimal.js "^10.4.3"
+
+interchainjs@1.9.12:
+  version "1.9.12"
+  resolved "https://registry.yarnpkg.com/interchainjs/-/interchainjs-1.9.12.tgz#1a6e364f27df0cf14ae8e6194eb8bd67ef776526"
+  integrity sha512-yx9uQtySP5WdVoVWSDzCtpHs8s1tWy7PoLJ2OJOB5dQkd+5SKqOeyfftF0i1xgQiB7ZOarw0VoSM9flGCgrwkQ==
+  dependencies:
+    "@interchainjs/cosmos" "1.9.12"
+    "@interchainjs/cosmos-types" "1.9.12"
+    "@interchainjs/encoding" "1.9.12"
+    "@interchainjs/pubkey" "1.9.12"
+    "@interchainjs/types" "1.9.12"
+    "@interchainjs/utils" "1.9.12"
     "@noble/hashes" "^1.3.1"
     decimal.js "^10.4.3"
 
@@ -14270,16 +14400,7 @@ string-length@^4.0.1:
     char-regex "^1.0.2"
     strip-ansi "^6.0.0"
 
-"string-width-cjs@npm:string-width@^4.2.0":
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
-  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
-  dependencies:
-    emoji-regex "^8.0.0"
-    is-fullwidth-code-point "^3.0.0"
-    strip-ansi "^6.0.1"
-
-"string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
+"string-width-cjs@npm:string-width@^4.2.0", "string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -14324,7 +14445,7 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6, strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -14351,13 +14472,6 @@ strip-ansi@^5.1.0:
   integrity sha512-DuRs1gKbBqsMKIZlrffwlug8MHkcnpjs5VPmL1PAh+mA30U0DTotfDZ0d2UUsXpPmPmMMJ6W773MaA3J+lbiWA==
   dependencies:
     ansi-regex "^4.1.0"
-
-strip-ansi@^6, strip-ansi@^6.0.0, strip-ansi@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
-  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
-  dependencies:
-    ansi-regex "^5.0.1"
 
 strip-ansi@^7.0.1:
   version "7.1.0"
@@ -15345,7 +15459,7 @@ wordwrap@^1.0.0:
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
   integrity sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==
 
-"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
+"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
@@ -15358,15 +15472,6 @@ wrap-ansi@^6.0.1, wrap-ansi@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
   integrity sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==
-  dependencies:
-    ansi-styles "^4.0.0"
-    string-width "^4.1.0"
-    strip-ansi "^6.0.0"
-
-wrap-ansi@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
-  integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
   dependencies:
     ansi-styles "^4.0.0"
     string-width "^4.1.0"
